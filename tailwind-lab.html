@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Restaurant Name</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="bg-green-700 text-white p-5 sticky z-50 top-0">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-italic">Vegan Restaurant</a>
+        <ul class="flex space-x-7">
+          <li><a href="#about" class="hover:text-gray-900">About</a></li>
+          <li><a href="#menu" class="hover:text-gray-900">Menu</a></li>
+          <li>
+            <a href="#reservations" class="hover:text-gray-900">Reservations</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div
+        class="bg-hero-pattern bg-cover bg-center h-screen flex items-center justify-center"
+        style="background-image: url('Screen_Shot_2022_05_04_at_10.52.23_AM.0.jpeg')"
+      >
+        <div class="text-center">
+          <h1 class="text-5xl bg-green-700 text-white p-5 font-bold mb-5 rounded-lg">
+            Welcome to Our Restaurant
+          </h1>
+          <p class="text-lg text-white bg-green-700 rounded-lg p-5 mb-5">
+            Experience the best cuisine from around the world.
+          </p>
+          <a
+            href="#menu"
+            class="bg-red-400 text-white py-3 px-6 rounded hover:underline hover:text-yellow-400 font-bold transition duration-300"
+            >Explore Our Menu</a
+          >
+        </div>
+      </div>
+
+
+      <section id="about" class="py-12 bg-green-700 text-white">
+          <div class="container mx-auto">
+              <div class="text-center">
+                  <h2 class="text-3xl font-bold mb-4">About Us</h2>
+                  <p class="max-w-2xl mx-auto">Our restaurant offers a unique blend of world flavors and traditional recipes to provide a memorable dining experience.</p>
+              </div>
+          </div>
+      </section>
+
+        <section id="menu" class="py-12 bg-gray-100">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-red-400 text-center mb-6">Our Menu</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Single Menu Item -->
+                    <div class="bg-white shadow-lg transform hover:rotate-6 duration-300 rounded-lg p-6">
+                        <h3 class="text-xl text-red-400 font-bold mb-2">Raviolis de Calabaza</h3>
+                        <p class="text-green-700">Deliciosos raviolis de calabaza local.</p>
+                        <span class="text-lg  font-bold">$12.99</span>
+                    </div>
+                    <div class="bg-white shadow-lg transform hover:-rotate-6 duration-300 rounded-lg p-6">
+                        <h3 class="text-xl text-red-400  font-bold mb-2">Raviolis de Calabaza</h3>
+                        <p class="text-green-700">Deliciosos raviolis de calabaza local.</p>
+                        <span class="text-lg font-bold">$12.99</span>
+                    </div>
+                    <div class="bg-white shadow-lg transform hover:rotate-6 duration-300 rounded-lg p-6">
+                        <h3 class="text-xl text-red-400  font-bold mb-2">Raviolis de Calabaza</h3>
+                        <p class="text-green-700">Deliciosos raviolis de calabaza local.</p>
+                        <span class="text-lg font-bold">$12.99</span>
+                    </div>
+                    <div class="bg-white shadow-lg transform hover:-rotate-6 duration-300 rounded-lg p-6">
+                        <h3 class="text-xl text-red-400  font-bold mb-2">Raviolis de Calabaza</h3>
+                        <p class="text-green-700">Deliciosos raviolis de calabaza local.</p>
+                        <span class="text-lg font-bold">$12.99</span>
+                    </div>
+                    <div class="bg-white shadow-lg transform hover:rotate-6 duration-300 rounded-lg p-6">
+                        <h3 class="text-xl text-red-400  font-bold mb-2">Raviolis de Calabaza</h3>
+                        <p class="text-green-700">Deliciosos raviolis de calabaza local.</p>
+                        <span class="text-lg font-bold">$12.99</span>
+                    </div>
+                    <!-- Repeat for other menu items -->
+                </div>
+            </div>
+        </section>
+
+        <section id="reservations" class="py-12 bg-green-700">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-white text-center mb-6">Make a Reservation</h2>
+                <form class="max-w-lg mx-auto">
+                    <input type="text" placeholder="Name" class="block w-full p-3 mb-4 rounded">
+                    <input type="email" placeholder="Email" class="block w-full p-3 mb-4 rounded">
+                    <textarea placeholder="Special Requests" class="block w-full p-3 mb-4 rounded"></textarea>
+                    <button type="submit" class="w-full text-lg bg-red-400 text-white p-3 font-bold rounded hover:underline hover:text-yellow-400 transition duration-300">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="bg-gray-800 text-white p-6">
+        <div class="container mx-auto text-center">
+            <div class="mb-3">
+                <a href="#" class="text-gray-400 font-bold hover:underline hover:text-gray-300 mx-2">Instagram</a>
+                <a href="#" class="text-gray-400 font-bold hover:underline hover:text-gray-300 mx-2">Facebook</a>
+                <a href="#" class="text-gray-400 font-bold hover:underline hover:text-gray-300 mx-2">Twitter</a>
+            </div>
+            <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+  </body>
+</html>
